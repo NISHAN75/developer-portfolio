@@ -15,6 +15,7 @@ img.img-fluid {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-with {
   width: 50%;
@@ -40,4 +41,12 @@ section {
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.big-dream{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.big-dream .half-with p{
+  padding-right: 100px;
 }
